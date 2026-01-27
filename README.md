@@ -1,38 +1,33 @@
-\# 🎲 Jogo de Dados em JavaScript
+## 🎲 Jogo de Dados em JavaScript
 
+![Preview do jogo](img/preview.png)
 
+🔗 **Demo:** https://maiconsouzazzss.github.io/Jogo-de-dados-Js/
 
-Projeto simples para praticar JavaScript, CSS e manipulação do DOM.
+Projeto simples desenvolvido para praticar **JavaScript**, **CSS** e **manipulação do DOM**, com foco em animações, responsividade e experiência do usuário.
 
+---
 
+## 🚀 Funcionalidades
 
-\## 🚀 Funcionalidades
+- Sorteio aleatório dos dados
+- Animação dos dados ao clicar em **🎲 Rolar dados**
+- Indicação visual do jogador vencedor
+- Layout responsivo (desktop e mobile)
+- Fundo animado com efeito de estrelas
 
-\- Sorteio aleatório dos dados
+---
 
-\- Animação ao clicar em "Atualizar"
+## 🛠️ Tecnologias utilizadas
 
-\- Indicação do jogador vencedor
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
-\- Layout responsivo
+---
 
-\- Fundo animado com estrelas
+## ▶️ Como executar o projeto
 
-
-
-\## 🛠️ Tecnologias
-
-\- HTML
-
-\- CSS
-
-\- JavaScript puro
-
-
-
-\## ▶️ Como executar
-
-Abra o arquivo `index.html` no navegador.
-
-
-
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Maiconsouzazzss/Jogo-de-dados-JJs.git
