@@ -1,3 +1,5 @@
+const diceSound = document.getElementById("diceSound");
+diceSound.volume = 1;
 const btn = document.getElementById("reloadBtn");
 const dices = document.querySelectorAll(".dice-img");
 
@@ -17,14 +19,18 @@ function animateTitle() {
 }
 
 btn.addEventListener("click", () => {
-  // animação dos dados (mantida)
+
+  diceSound.currentTime = 0;
+  diceSound.play().catch(() => {});
+
+  // animação dos dados
   dices.forEach((dice, index) => {
     dice.classList.remove("jump-physics");
     void dice.offsetWidth;
 
     setTimeout(() => {
       dice.classList.add("jump-physics");
-    }, index * 150);
+    }, index * 550);
   });
 
   // lógica do jogo (troca no meio da animação)
